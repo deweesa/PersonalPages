@@ -1,11 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Spotlight from './components/Spotlight'
+import Experience from './components/Experience';
+import Projects from './components/Projects';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <Navbar />
+      <Spotlight />
+      <Experience />
+      <Projects /> 
+    </div>
   );
 }
 

@@ -1,10 +1,18 @@
+// the grey color is just rending as black nee dot check if that's a real color (I bet it isn't)
 function Navbar() {
   return(
-    <nav className="bg-gray-800">
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px8">
-        <div className="realtive flex h-16 items-center justify-between">
-          
-        </div>
+    <nav className="w-full flex justify-end ml-auto py-2 bg-green-500">
+      <div className="mr-6">
+        <a className="text-grey-500 hover:text-grey-800" href="#">About</a>
+      </div>
+      <div className="mr-6">
+        <a className="text-grey-500 hover:text-grey-800" href="#">Experience</a>
+      </div>
+      <div className="mr-6">
+        <a className="text-grey-500 hover:text-grey-800" href="/about">Projects</a>
+      </div>
+      <div className="mr-6">
+        <a className="text-grey-500 hover:text-grey-800" href="/about">Contact</a>
       </div>
     </nav>
   ) 
