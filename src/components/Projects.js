@@ -1,7 +1,18 @@
 function Projects() {
     return (
-       <div className="w-full text-center">
-        These are my projects
+        <div id="projects" className="">
+            <ul>
+                <li>These are my projects</li>
+                <li>These are my projects</li>
+                <li>These are my projects</li>
+                <li>These are my projects</li>
+                <li>These are my projects</li>
+                <li>These are my projects</li>
+                <li>These are my projects</li>
+                <li>These are my projects</li>
+                <li>These are my projects</li>
+                <li>These are my projects</li>
+            </ul>
        </div> 
     )
 }
